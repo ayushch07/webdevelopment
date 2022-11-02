@@ -1,0 +1,14 @@
+-- -- -- create table Employee(
+
+-- -- --  fname char(10),Minit char(10), L_name char(10), SSN int, DOB date, address varchar(20), sex char(1), salary int, super_ssn int, d_no int );
+-- -- insert into Employee values(
+-- --     'John', 'B', 'SMITH', '1234567122', '20-jan-1234', '731 Houston TS', 'M', '30000', '333445555', '1');
+-- --     insert into Employee values(
+-- --     'Frankin', 'B', 'SMITH', '123456000', '20-jan-1235', '731 Houston TQ', 'M', '30000', '333445555', '4');
+-- --     insert into Employee values(
+-- --     'Abhishek', 'B', 'SMITH', '1234568595', '20-jan-1111', '731 Houston TA', 'M', '30000', '333445555', '5');
+-- --     insert into Employee values(
+-- --     'Yash', 'B', 'SMITH', '12345555', '20-jan-1789', '731 Houston TV', 'F', '30000', '333445555', '6');
+-- --     insert into Employee values(
+-- --     'Ayush', 'B', 'SMITH', '12345555', '20-jan-0234', '731 Houston TY', 'M', '30000', '333445555', '7');
+--  select fname from Employee where d_no=5;

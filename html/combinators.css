@@ -1,0 +1,41 @@
+body{
+        background-image: url(./OIP.jpg);
+        background-position: right;
+        background-repeat: repeat-y;
+        
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p:hover{
+    color: bisque;
+}
+.ks{
+     font-size: 50px;
+     background-color: brown;
+}
+.k{
+    height: 200px;
+    width: 200px;
+    border: 100px;
+    color: rgb(238, 130, 134);
+    background-color: rgb(255, 0, 17);
+}
+.box:hover{
+    background-image: url(./OIP.jpg);
+    background-repeat: no-repeat;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    border: 100px;
+    color: rgb(130, 238, 202);
+    background-color: blue;
+}
+.box{
+    border: 100px;
+    background-color: burlywood;
+}
+a:visited{
+    background-color: violet;
+}

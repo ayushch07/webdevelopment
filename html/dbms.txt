@@ -1,0 +1,57 @@
+-- -- -- -- -- create table Employee(
+
+-- -- -- -- --  fname char(10),Minit char(10), L_name char(10), SSN int, DOB date, address varchar(20), sex char(1), salary int, super_ssn int, d_no int );
+-- -- -- -- insert into Employee values(
+-- -- -- --     'John', 'B', 'SMITH', '1234567122', '20-jan-1234', '731 Houston TS', 'M', '30000', '333445555', '1');
+-- -- -- --     insert into Employee values(
+-- -- -- --     'Frankin', 'B', 'SMITH', '123456000', '20-jan-1235', '731 Houston TQ', 'M', '30000', '333445555', '4');
+-- -- -- --     insert into Employee values(
+-- -- -- --     'Abhishek', 'B', 'SMITH', '1234568595', '20-jan-1111', '731 Houston TA', 'M', '30000', '333445555', '5');
+-- -- -- --     insert into Employee values(
+-- -- -- --     'Yash', 'B', 'SMITH', '12345555', '20-jan-1789', '731 Houston TV', 'F', '30000', '333445555', '6');
+-- -- -- --     insert into Employee values(
+-- -- -- --     'Ayush', 'B', 'SMITH', '12345555', '20-jan-0234', '731 Houston TY', 'M', '30000', '333445555', '7');
+-- -- --  select fname from Employee where d_no=5;
+-- --     select fname from Employee where super_ssn=333445555; 
+-- -- create table Department(
+-- --   D_name char(10), D_number int, Mgn_ssn int
+-- --     );
+-- --  insert into Department values(
+-- --  'Reas', 4, '333444555'      );
+ 
+-- --  insert into Department values(
+-- --  'Adminis', 7, '33344555'      );
+ 
+-- --  insert into Department values(
+-- --  'Headq', 5, '333445556'      );
+-- select DOB from Employee,Department where Employee.d_no=Department.D_number and D_number=5;
+-- create table Department_loca
+--  (   D_number int, location char(25) );
+ 
+-- insert into Department_loca values(
+--      4, 'HOUSTON'
+--     );
+--     insert into Department_loca values(
+--      7, 'England'
+--     );
+--     insert into Department_loca values(
+--      5, 'California'
+--     );
+--     select fname from Employee,Department_loca where Employee.d_no=Department_loca.D_number and D_number=7;
+    -- create table Gutka(
+    --   Types char(50), Users char(50)  );
+    -- insert into Gutka values(
+    --   'Rajshree', 'Yash' );
+    --   insert into Gutka values(
+    --   'Tansen', 'Kavya' );
+    --   insert into Gutka values(
+    --   'Vimal', 'Bhenda' );
+    --   Select * from Gutka;
+    --   insert into Gutka values(
+    --   'Tansen', 'Gupta ji');
+    --     insert into Gutka values(
+    --   'Peeli Goldmohar', 'Sharma ji');
+       Select * from Gutka;
+      
+      
+    
